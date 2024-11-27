@@ -1,0 +1,56 @@
+/* Global Styles */
+/* Hero Section */
+.hero12 {
+    Background : linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(‘../images/produits-hero.jpg’) no-repeat center center/cover ;
+    Color : white ;
+    Text-align : center ;
+    Padding : 80px 20px ;%
+}
+
+.hero12 h1 {
+    Font-size : 2.5em ;
+    Margin-bottom : 10px ;
+    margin-top: 100px;
+
+}
+
+.hero12 p {
+    Font-size : 1.2em ;
+    Max-width : 600px ;
+    Margin : 0 auto ;
+    margin-top: 80;
+}
+
+/* Product Gallery */
+.prod {
+    Display : flex ;
+    Flex-wrap : wrap ;
+    Justify-content : center ;
+    Padding : 20px ;
+    Gap : 20px ;
+}
+
+.pro {
+    Background : white ;
+    Border-radius : 10px ;
+    Box-shadow : 0 4px 8px rgba(0, 0, 0, 0.1) ;
+    Text-align : center ;
+    Padding : 20px ;
+    Max-width : 300px ;
+}
+
+.pro img {
+    Width : 100% ;
+    Height : auto ;
+    Border-radius : 10px ;
+}
+
+.pro h2 {
+    Font-size : 1.5em ;
+    Margin : 15px 0 10px ;
+}
+
+.pro p {
+    Font-size : 1em ;
+    Color : #555 ;
+}

@@ -1,0 +1,87 @@
+Body {
+    Font-family : Arial, sans-serif ;
+    Margin : 0 ;
+    Padding : 0 ;
+    Background-color : #f4f4f4 ;
+    Color : #333 ;
+}
+
+Nav {
+    Background-color : #333 ;
+    Padding : 10px 20px ;
+}
+
+Nav ul {
+    List-style : none ;
+    Display : flex ;
+    Justify-content : center ;
+    Padding : 0 ;
+    Margin : 0 ;
+}
+
+Nav ul li {
+    Margin : 0 15px ;
+}
+
+Nav ul li a {
+    Color : white ;
+    Text-decoration : none ;
+    Font-size : 18px ;
+}
+
+.hero {
+    Background : linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(‘../images/hero-about.jpg’) no-repeat center center/cover ;
+    Color : white ;
+    Text-align : center ;
+    Padding : 80px 20px ;
+}
+
+.hero h1 {
+    Font-size : 2.5em ;
+    Margin-bottom : 20px ;
+    margin-top: 80px;
+    color: blue;
+}
+
+.hero p {
+    Font-size : 1.2em ;
+    Max-width : 600px ;
+    Margin : 0 auto ;
+}
+
+.content {
+    Padding : 40px 20px ;
+}
+
+.row {
+    Display : flex ;
+    Flex-wrap : wrap ;
+    Justify-content : center ;
+    Margin-bottom : 40px ;
+}
+
+.column {
+    Flex : 1 ;
+    Max-width : 45% ;
+    Margin : 10px ;
+    Background-color : white ;
+    Padding : 20px ;
+    Border-radius : 10px ;
+    Box-shadow : 0 4px 8px rgba(0, 0, 0, 0.1) ;
+}
+
+.column h2 {
+    Margin-bottom : 10px ;
+    Color : blue;
+}
+
+.column p {
+    Font-size : 1em ;
+    Line-height : 1.6 ;
+    Color : #555 ;
+    text-align: justify;
+}
+
+.ttt{
+
+}
